@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StyleAI - Seu Guarda-Roupa Virtual Inteligente</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <i class="fas fa-tshirt"></i>
+                <h1>Style<span>AI</span></h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#" class="active">Meu Guarda-Roupa</a></li>
+                    <li><a href="#">Looks</a></li>
+                    <li><a href="#">Inspirações</a></li>
+                    <li><a href="#">Minhas Lojas</a></li>
+                </ul>
+            </nav>
+            <div class="user-actions">
+                <button class="btn-icon"><i class="fas fa-search"></i></button>
+                <button class="btn-icon"><i class="fas fa-heart"></i></button>
+                <button class="btn-icon"><i class="fas fa-user"></i></button>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <section class="hero">
+                <div class="hero-text">
+                    <h2>Seu guarda-roupa virtual inteligente</h2>
+                    <p>Adicione peças das suas lojas favoritas e deixe nossa IA criar looks incríveis para você</p>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/images/fashion-hero.png" alt="Modelo com look gerado pela IA">
+                </div>
+            </section>
+
+            <section class="look-generator">
+                <div class="generator-container">
+                    <h3>Criar novo look</h3>
+                    <div class="input-group">
+                        <input type="text" id="look-prompt" placeholder="Ex: Me ajude a escolher um look preto com peças da Shein...">
+                        <button id="generate-look" class="btn-primary">Gerar Look <i class="fas fa-magic"></i></button>
+                    </div>
+                    <div class="store-integration">
+                        <h4>Conecte suas lojas favoritas</h4>
+                        <div class="store-buttons">
+                            <button class="store-btn"><img src="assets/icons/shein.png" alt="Shein"> Shein</button>
+                            <button class="store-btn"><img src="assets/icons/amazon.png" alt="Amazon"> Amazon</button>
+                            <button class="store-btn"><img src="assets/icons/zara.png" alt="Zara"> Zara</button>
+                            <button class="store-btn"><i class="fas fa-plus"></i> Outra</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="generated-look">
+                <h3>Seu Look Gerado</h3>
+                <div class="look-preview">
+                    <div class="look-items">
+                        <!-- Itens serão adicionados dinamicamente pelo JavaScript -->
+                    </div>
+                    <div class="look-model">
+                        <img src="assets/images/model-placeholder.png" alt="Modelo com look gerado" id="model-image">
+                    </div>
+                </div>
+                <div class="look-actions">
+                    <button class="btn-secondary"><i class="fas fa-sync-alt"></i> Regenerar</button>
+                    <button class="btn-primary"><i class="fas fa-shopping-cart"></i> Comprar Look</button>
+                    <button class="btn-secondary"><i class="fas fa-heart"></i> Salvar</button>
+                </div>
+            </section>
+
+            <section class="wardrobe">
+                <h3>Seu Guarda-Roupa Virtual</h3>
+                <div class="wardrobe-filters">
+                    <div class="filter-group">
+                        <label for="category-filter">Categoria:</label>
+                        <select id="category-filter">
+                            <option value="all">Todas</option>
+                            <option value="top">Blusas</option>
+                            <option value="bottom">Calças/Saias</option>
+                            <option value="dress">Vestidos</option>
+                            <option value="shoes">Calçados</option>
+                            <option value="accessories">Acessórios</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="color-filter">Cor:</label>
+                        <select id="color-filter">
+                            <option value="all">Todas</option>
+                            <option value="black">Preto</option>
+                            <option value="white">Branco</option>
+                            <option value="red">Vermelho</option>
+                            <option value="blue">Azul</option>
+                            <option value="green">Verde</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="store-filter">Loja:</label>
+                        <select id="store-filter">
+                            <option value="all">Todas</option>
+                            <option value="shein">Shein</option>
+                            <option value="amazon">Amazon</option>
+                            <option value="zara">Zara</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="wardrobe-items">
+                    <!-- Itens serão adicionados dinamicamente pelo JavaScript -->
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Sobre</h4>
+                    <ul>
+                        <li><a href="#">Sobre nós</a></li>
+                        <li><a href="#">Como funciona</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Ajuda</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Conecte-se</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 StyleAI. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
