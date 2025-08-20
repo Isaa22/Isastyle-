@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
             color: 'black',
             price: 'R$ 129,90',
             image: 'Captura de tela_2025-08-20_19-45-15.png',
-            link: 'https://br.shein.com/Women-Jeans-p-30186145.html?src_identifier=st%3D2%60sc%3DCal%C3%A7a%20Jeans%20Skinny%60sr%3D0%60ps%3D1&src_module=search&src_tab_page_id=page_search1755729534741&pageListType=4&imgRatio=3-4&pageListType=4'
+            link: 'https://br.shein.com/Salt-And-Pepper-Skinny-Jeans-With-High-Waist-Marbled-Finish-p-148268386.html?src_identifier=st%3D4%60sc%3DCal%C3%A7a%20Jeans%20Feminina%60sr%3D0%60ps%3D2&src_module=search&src_tab_page_id=page_home1755730431537&pageListType=4&imgRatio=3-4&pageListType=4'
         },
         {
             id: 3,
