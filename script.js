@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
             category: 'shoes',
             color: 'white',
             price: 'R$ 398,99',
-            image: 'assets/images/sneakers.jpg',
+            image: 'Captura de tela_2025-08-20_19-52-44.png',
             link: 'https://www.nike.com.br/tenis-nike-court-vision-alta-feminino-014404.html?cor=51'
         },
         {
