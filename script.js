@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
             category: 'dress',
             color: 'red',
             price: 'R$ 159,90',
-            image: 'assets/images/dress.jpg',
+            image: 'Captura de tela_2025-08-20_19-49-48.png',
             link: 'https://br.shein.com/SHEIN-Belle-Burgundy-Red-Front-Collar-Criss-Cross-Backless-Wrap-Body-With-Lower-Straps-And-Leg-Revealing-Satin-Ball-Elegant-Bridesmaid-Dress-p-9942617.html?src_identifier=st%3D2%60sc%3DVestido%20Vinho%20Elegante%60sr%3D0%60ps%3D1&src_module=search&src_tab_page_id=page_search1755729801302&pageListType=4&imgRatio=3-4&pageListType=4'
         },
         {
