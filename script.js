@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
             category: 'bottom',
             color: 'black',
             price: 'R$ 129,90',
-            image: 'assets/images/jeans.jpg',
+            image: 'Captura de tela_2025-08-20_19-45-15.png',
             link: 'https://br.shein.com/Women-Jeans-p-30186145.html?src_identifier=st%3D2%60sc%3DCal%C3%A7a%20Jeans%20Skinny%60sr%3D0%60ps%3D1&src_module=search&src_tab_page_id=page_search1755729534741&pageListType=4&imgRatio=3-4&pageListType=4'
         },
         {
