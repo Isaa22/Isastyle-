@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const sampleWardrobeItems = [
         {
             id: 1,
-            name: 'Blusa Preta Básica',
+            name: 'Camiseta Preta Básica',
             store: 'Shein',
             category: 'top',
             color: 'black',
