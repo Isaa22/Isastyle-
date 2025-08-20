@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
             color: 'black',
             price: 'R$ 22,50',
             image: 'assets/images/black-top.jpg',
-            link: 'https://www.shein.com/black-top'
+            link: 'https://br.shein.com/Basic-Ribana-Ribbed-Premium-Blouse-T-Shirt-Gringa-Fashion-p-83967365.html?src_identifier=st%3D4%60sc%3DBlusa%20Preta%20Basica%60sr%3D0%60ps%3D1&src_module=search&src_tab_page_id=page_home1755729520100&pageListType=4&imgRatio=3-4&pageListType=4'
         },
         {
             id: 2,
