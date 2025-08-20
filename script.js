@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
             store: 'Shein',
             category: 'top',
             color: 'black',
-            price: 'R$ 59,90',
+            price: 'R$ 22,50',
             image: 'assets/images/black-top.jpg',
             link: 'https://www.shein.com/black-top'
         },
