@@ -23,10 +23,10 @@ document.addEventListener('DOMContentLoaded', function() {
             name: 'Calça Jeans Skinny',
             store: 'Shein',
             category: 'bottom',
-            color: 'blue',
+            color: 'black',
             price: 'R$ 129,90',
             image: 'assets/images/jeans.jpg',
-            link: 'https://www.shein.com/jeans'
+            link: 'https://br.shein.com/Women-Jeans-p-30186145.html?src_identifier=st%3D2%60sc%3DCal%C3%A7a%20Jeans%20Skinny%60sr%3D0%60ps%3D1&src_module=search&src_tab_page_id=page_search1755729534741&pageListType=4&imgRatio=3-4&pageListType=4'
         },
         {
             id: 3,
