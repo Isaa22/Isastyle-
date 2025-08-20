@@ -41,12 +41,12 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             id: 4,
             name: 'Tênis Branco',
-            store: 'Amazon',
+            store: 'Nike',
             category: 'shoes',
             color: 'white',
-            price: 'R$ 199,90',
+            price: 'R$ 398,99',
             image: 'assets/images/sneakers.jpg',
-            link: 'https://www.amazon.com/sneakers'
+            link: 'https://www.nike.com.br/tenis-nike-court-vision-alta-feminino-014404.html?cor=51'
         },
         {
             id: 5,
