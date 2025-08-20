@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
             category: 'accessories',
             color: 'black',
             price: 'R$ 309,00',
-            image: 'assets/images/bag.jpg',
+            image: 'Captura de tela_2025-08-20_19-58-06.png',
             link: 'https://www.zara.com/br/pt/bolsa-a-tiracolo-p16064110.html?v1=452447766'
         },
         {
